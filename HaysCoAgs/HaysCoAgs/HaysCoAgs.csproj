@@ -103,8 +103,7 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="Default.aspx" />
-    <Content Include="Events.aspx" />
+    <Content Include="Events.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\generic_avatar.jpg" />
     <Content Include="images\hcamcLogo.jpg" />
@@ -113,7 +112,8 @@
     <Content Include="images\TAM-Logo-white.png" />
     <Content Include="images\TAM-Logo.png" />
     <Content Include="images\tlee.jpg" />
-    <Content Include="Leadership.aspx" />
+    <Content Include="index.html" />
+    <Content Include="Leadership.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -132,27 +132,6 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Events.aspx.cs">
-      <DependentUpon>Events.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Events.aspx.designer.cs">
-      <DependentUpon>Events.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Leadership.aspx.cs">
-      <DependentUpon>Leadership.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Leadership.aspx.designer.cs">
-      <DependentUpon>Leadership.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
